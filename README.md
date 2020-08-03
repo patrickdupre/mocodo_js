@@ -51,7 +51,7 @@ Ci-dessous, un exemple généré sur Chrome, testé sur Firefox et Edge. Il repr
 
     En sortie, le MCD (diagramme conceptuel):
 
-![](https://st2msi.net/img/AMH-23.svg)
+![](https://www.st2msi.net/img/AHM-23.svg)
 
 La devise de Mocodo, « nickel, ni souris », en résume les principaux points forts:
 
