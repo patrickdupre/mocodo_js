@@ -8,6 +8,9 @@ La version en ligne est une "version beta" (le script est directement intégré 
 L'outil se base sur MOCODO : https://github.com/laowantong/mocodo. 
 - En entrée, il prend une description textuelle des entités et associations du modèle conceptuel de données ([MCD](https://fr.wikipedia.org/wiki/Modèle_entité-association)).
 - En sortie, il produit son diagramme entité-association en [SVG](https://fr.wikipedia.org/wiki/Scalable_Vector_Graphics).
+<h2>Version en ligne</h2>
+https://www.st2msi.net/mocodo_js/mocodo_js.html
+Vous pouvez vous entrainer d'abord avec l'original  sur http://www.mocodo.net/.
 <h2>Exemple</h2>
 <h3>Description textuelle</h3>
 Adaptée d'une étude de cas de BTS SIO SLAM (Cas AHM-23 - session 2017).
@@ -54,12 +57,17 @@ Adaptée d'une étude de cas de BTS SIO SLAM (Cas AHM-23 - session 2017).
 
 <h2>Apport de la version</h2>
 <ul>
-<li>La généralisation/spécialisation s'exprime par des relations notées <code>XT</code>,<code>T</code>,<code>X</code> ou <code> </code>.</li>
-<li>Ces relations recoivent  alors des cardinalités notées <code>&&</code> (évite l'affichage des cardinalités).</li>
-<li>La première propriété des entitées "sous type" est  précédée  d'un <code>&</code> (le <code>&</code> évite le soulignement).</li>
-<li>exemple: <code>XT, &&> ModelePalette, && Standard, && Personalisee</code>.</li>
-<li><code>, &&> ModelePalette, && Standard, && Personalisee</code> affichera un triangle vide.</li>
-<li>Bibliographie : INGENIERIE DES SYSTEMES D’INFORMATION : MERISE DEUXIEME GENERATION 4°édition</li>
-<li>http://www.lsis.org/espinasseb/LivreMerise/LivreMerisePDF-total-12sept14.pdf</li>
+    <li>La généralisation/spécialisation s'exprime par des relations notées <code>XT</code>,<code>T</code>,<code>X</code> ou <code> </code>.</li>
+    <li>Ces relations recoivent  alors des cardinalités notées <code>&&</code> (évite l'affichage des cardinalités).</li>
+    <li>La première propriété des entitées "sous type" est  précédée  d'un <code>&</code> (le <code>&</code> évite le soulignement).</li>
+    <li>exemple: <code>XT, &&> ModelePalette, && Standard, && Personalisee</code>.</li>
+    <li><code>, &&> ModelePalette, && Standard, && Personalisee</code> affichera un triangle vide.</li>
+    <li>Bibliographie : INGENIERIE DES SYSTEMES D’INFORMATION : MERISE DEUXIEME GENERATION 4°édition</li>
+    <li>http://www.lsis.org/espinasseb/LivreMerise/LivreMerisePDF-total-12sept14.pdf</li>
 </ul>
-<h2>Installation</h2>
+<h2>Installation en local</h2>
+<ul>
+    <li>Vous devez avoir un serveur http installé et opérationnel</li>
+    <li>Télécharger le code via Github</li>
+    
+
