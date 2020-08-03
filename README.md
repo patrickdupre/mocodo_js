@@ -1,5 +1,5 @@
 # mocodo_js
-![](https://www.st2msi.net/img/mododo_js.svg)
+![](https://www.st2msi.net/img/mocodo_js.svg)
 
 Mocodo_js est un composant d'aide à l'enseignement et à la conception des bases de données relationnelles.
 (http://www.lsis.org/espinasseb/LivreMerise/LivreMerisePDF-total-12sept14.pdf).
