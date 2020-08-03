@@ -2,7 +2,9 @@
 ![](https://cdn.rawgit.com/laowantong/mocodo/master/logos/banner.svg)
 
 
-Mocodo_js est un composant d'aide à l'enseignement et à la conception des [bases de données relationnelles]
+Mocodo_js est un composant d'aide à l'enseignement et à la conception des bases de données relationnelles.
+La version en ligne est une "version beta" (le script est directement intégré au html, les erreurs ne sont pas gérées et le code doit être remanié).
+
 (http://www.lsis.org/espinasseb/LivreMerise/LivreMerisePDF-total-12sept14.pdf).
 
 L'outil se base sur MOCODO : https://github.com/laowantong/mocodo
@@ -49,7 +51,7 @@ Ci-dessous, un exemple généré sur Chrome, testé sur Firefox et Edge. Il repr
 
     En sortie, le MCD (diagramme conceptuel):
 
-![](https://cdn.rawgit.com/laowantong/mocodo/master/doc/readme_1.svg)
+![](https://st2msi.net/img/AMH-23.svg)
 
 La devise de Mocodo, « nickel, ni souris », en résume les principaux points forts:
 
