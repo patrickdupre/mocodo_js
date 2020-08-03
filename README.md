@@ -10,7 +10,7 @@ L'outil se base sur MOCODO : https://github.com/laowantong/mocodo.
 - En sortie, il produit son diagramme entité-association en [SVG](https://fr.wikipedia.org/wiki/Scalable_Vector_Graphics).
 <h2>Exemple</h2>
 <h3>Description textuelle</h3>
-Extrait d'une étude de cas de BTS SIO SLAM (Cas AHM-23, session 2017).
+Adaptée d'une étude de cas de BTS SIO SLAM (Cas AHM-23 - session 2017).
 
     EssenceBois: id, libelle
     :
