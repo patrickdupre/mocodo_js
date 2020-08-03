@@ -49,7 +49,9 @@ Extrait d'une étude de cas de BTS SIO SLAM (Cas AHM-23, session 2017).
 
     En sortie, le MCD (diagramme conceptuel):
 <h3>Shéma généré</h3>
+
 ![](https://www.st2msi.net/img/AHM-23.svg)
+
 <h2>Apport de la version</h2>
 <ul>
 <li>La généralisation/spécialisation s'exprime par des relations notées <code>XT</code>,<code>T</code>,<code>X</code> ou <code> </code>.</li>
