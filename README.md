@@ -1,15 +1,16 @@
 # mocodo_js
 ![](https://cdn.rawgit.com/laowantong/mocodo/master/logos/banner.svg)
 
-https://github.com/laowantong/mocodo
 
 Mocodo_js est un composant d'aide à l'enseignement et à la conception des [bases de données relationnelles]
 (http://www.lsis.org/espinasseb/LivreMerise/LivreMerisePDF-total-12sept14.pdf).
 
+L'outil se base sur MOCODO : https://github.com/laowantong/mocodo
+
 - En entrée, il prend une description textuelle des entités et associations du modèle conceptuel de données ([MCD](https://fr.wikipedia.org/wiki/Modèle_entité-association)).
 - En sortie, il produit son diagramme entité-association en [SVG](https://fr.wikipedia.org/wiki/Scalable_Vector_Graphics).
 
-Ci-dessous, un exemple généré par chrome.
+Ci-dessous, un exemple généré sur Chrome, testé sur Firefox et Edge. Il reprend une étude de cas de BTS SIO SLAM.
 
     EssenceBois: id, libelle
     :
