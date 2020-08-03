@@ -8,8 +8,9 @@ La version en ligne est une "version beta" (le script est directement intégré 
 L'outil se base sur MOCODO : https://github.com/laowantong/mocodo. 
 - En entrée, il prend une description textuelle des entités et associations du modèle conceptuel de données ([MCD](https://fr.wikipedia.org/wiki/Modèle_entité-association)).
 - En sortie, il produit son diagramme entité-association en [SVG](https://fr.wikipedia.org/wiki/Scalable_Vector_Graphics).
-
-Ci-dessous, un exemple généré sur Chrome, testé sur Firefox et Edge. Il reprend une étude de cas de BTS SIO SLAM.
+<h2>Exemple</h2>
+<h3>Description textuelle</h3>
+Extrait d'une étude de cas de BTS SIO SLAM (Cas AHM-23, session 2017).
 
     EssenceBois: id, libelle
     :
@@ -47,7 +48,16 @@ Ci-dessous, un exemple généré sur Chrome, testé sur Firefox et Edge. Il repr
     Personalisee: &dateApplication, dateCreation, contact
 
     En sortie, le MCD (diagramme conceptuel):
-
+<h3>Shéma généré</h3>
 ![](https://www.st2msi.net/img/AHM-23.svg)
-
+<h2>Apport de la version</h2>
+<ul>
+<li>La généralisation/spécialisation s'exprime par des relations notées <code>XT</code>,<code>T</code>,<code>X</code> ou <code> </code>.</li>
+<li>Ces relations recoivent  alors des cardinalités notées <code>&&</code> (évite l'affichage des cardinalités).</li>
+<li>La première propriété des entitées "sous type" est  précédée  d'un <code>&</code> (le <code>&</code> évite le soulignement).</li>
+<li>exemple: <code>XT, &&> ModelePalette, && Standard, && Personalisee</code>.</li>
+<li><code>, &&> ModelePalette, && Standard, && Personalisee</code> affichera un triangle vide.</li>
+<li>Bibliographie : INGENIERIE DES SYSTEMES D’INFORMATION : MERISE DEUXIEME GENERATION 4°édition</li>
+<li>http://www.lsis.org/espinasseb/LivreMerise/LivreMerisePDF-total-12sept14.pdf</li>
+</ul>
 <h2>Installation</h2>
