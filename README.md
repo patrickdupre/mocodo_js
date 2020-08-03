@@ -69,5 +69,7 @@ Adaptée d'une étude de cas de BTS SIO SLAM (Cas AHM-23 - session 2017).
 <ul>
     <li>Vous devez avoir un serveur http installé et opérationnel</li>
     <li>Télécharger le code via Github</li>
-    
+    <li>Décompresser le fichier à la racine du serveur</li>
+    <li>Appeler le fichier mocodo_js.html depuis votre navigateur</li>
+<ul>
 
