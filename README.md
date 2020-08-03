@@ -51,13 +51,4 @@ Ci-dessous, un exemple généré sur Chrome, testé sur Firefox et Edge. Il repr
 
 ![](https://www.st2msi.net/img/AHM-23.svg)
 
-La devise de Mocodo, « nickel, ni souris », en résume les principaux points forts:
-
-- description textuelle des données. L'utilisateur n'a pas à renseigner, placer et déplacer des éléments comme avec une lessive ordinaire. Il ne fournit rien de plus que les informations définissant son MCD. L'outil s'occupe tout seul du plongement;
-- propreté du rendu. La sortie se fait en vectoriel, prête à être affichée, imprimée, agrandie, exportée dans une multitude de formats sans perte de qualité;
-
-Mocodo est libre, gratuit et multiplateforme. Si vous l'aimez, répandez la bonne nouvelle en incluant l'un de ses logos dans votre support: cela multipliera ses chances d'attirer des contributeurs qui le feront évoluer.
-
-Pour vous familiariser avec Mocodo, le mieux est d'utiliser [sa version en ligne](http://mocodo.net).
-
-Pour en savoir plus, lisez la documentation [au format HTML](https://rawgit.com/laowantong/mocodo/master/doc/fr_refman.html) ou téléchargez-la [au format Jupyter Notebook](doc/fr_refman.ipynb).
+# installation
