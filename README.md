@@ -50,4 +50,4 @@ Ci-dessous, un exemple généré sur Chrome, testé sur Firefox et Edge. Il repr
 
 ![](https://www.st2msi.net/img/AHM-23.svg)
 
-# installation
+<h2>Installation</h2>
