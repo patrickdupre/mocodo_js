@@ -3,7 +3,8 @@
 Mocodo_js est un composant d'aide à l'enseignement et à la conception des bases de données relationnelles.
 (http://www.lsis.org/espinasseb/LivreMerise/LivreMerisePDF-total-12sept14.pdf).
 
-La version en ligne est une "version beta" (le script est directement intégré au html, les erreurs ne sont pas gérées et le code doit être remanié).
+La version en ligne est une "version beta", les erreurs ne sont pas gérées et le code doit être remanié).
+Le script est testé avec les navigateurs Brave, Chrome, Edge, Firefox (ne fonctionne pas sur Internet Explorer => utiliser Edge ou autre).
 
 L'outil se base sur MOCODO : https://github.com/laowantong/mocodo. 
 - En entrée, il prend une description textuelle des entités et associations du modèle conceptuel de données ([MCD](https://fr.wikipedia.org/wiki/Modèle_entité-association)).
