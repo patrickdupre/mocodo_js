@@ -10,7 +10,7 @@ Mocodo{.js} uses the formalism of mocodo (same textual description) to construct
 
 The script is tested with Brave, Chrome, Edge and Firefox browsers (it doesn't work on Internet Explorer - use Edge or whatever).
 - Input: the textual description of the entities and associations of the conceptual data model.
-- Output: it produces its entity-association diagram in [SVG] which can be downloaded.
+- Output: entity-association diagram in [SVG] which can be downloaded.
 <h2>Online version</h2>
 https://www.st2msi.net/mocodo_js/mocodo_js.html
 You can train first with the original : http://www.mocodo.net/.
