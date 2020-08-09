@@ -70,16 +70,16 @@ Adapted from a case study (BTS SIO SLAM AHM-23 - 2017).
     <li>Télécharger le code via Github</li>
     <li>Décompresser le fichier à la racine du serveur</li>
     <li>Appeler le fichier mocodo_js.html depuis votre navigateur</li>
-<ul>
+</ul>
 <h2>Bibliography</h2>
 <ul>
     <li>INGENIERIE DES SYSTEMES D’INFORMATION : MERISE DEUXIEME GENERATION (http://www.lsis.org/espinasseb/LivreMerise/LivreMerisePDF-total-12sept14.pdf</li>
     <li>Jean-Luc Hainaut (2018), Bases de données - 4e édition - Concepts, utilisation et développement (InfoSup, Dunod)</li>
     <li>Joseph Gabay (2001), Merise et UML pour la modélisation des systèmes d'information - Un guide complet avec études de cas, (Infrmatique, Dunod)</li>
-<ul>
+</ul>
 <h2>References</h2>
 <ul>
     <li>Icons : inspired or adapted from https://github.com/FortAwesome</li>
     <li>https://developer.mozilla.org/en-US/</li>
     <li>https://www.w3.org/</li>
-<ul>
+</ul>
