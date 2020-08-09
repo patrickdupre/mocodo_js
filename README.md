@@ -68,7 +68,7 @@ Adapted from a case study (BTS SIO SLAM AHM-23 - 2017).
 <ul>
     <li>You need to have an installed and operational http server</li>
     <li>Download the code via Github</li>
-    <li>Unzip the file at the server's rootr</li>
+    <li>Unzip the file at the server's root</li>
     <li>Call the file mocodo_js.html from your browser</li>
 </ul>
 <h2>Bibliography</h2>
