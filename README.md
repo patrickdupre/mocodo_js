@@ -1,23 +1,22 @@
 ![](https://www.st2msi.net/img/mocodo_js.svg)
 
 Mocodo is a software to help teach and design relational databases (https://github.com/laowantong/mocodo).
+(It is a tool that works according to part of the principles of the "Merise" method)
 
-Mocodo{.js} uses the formalism of mocodo (same textual description) to construct the MCD (conceptual model of the data). 
+Mocodo{.js} uses the formalism of mocodo (same textual description) to construct the MCD (conceptual data model). 
 - The online version is a "beta version".
 - Errors are not managed.
 - The code needs to be reworked.
 
 The script is tested with Brave, Chrome, Edge and Firefox browsers (it doesn't work on Internet Explorer - use Edge or whatever).
-
-L'outil se base sur MOCODO : https://github.com/laowantong/mocodo. 
-- En entrée, il prend une description textuelle des entités et associations du modèle conceptuel de données ([MCD](https://fr.wikipedia.org/wiki/Modèle_entité-association)).
-- En sortie, il produit son diagramme entité-association en [SVG](https://fr.wikipedia.org/wiki/Scalable_Vector_Graphics).
-<h2>Version en ligne</h2>
+- Input: the textual description of the entities and associations of the conceptual data model.
+- Output: it produces its entity-association diagram in [SVG] which can be downloaded.
+<h2>Online version</h2>
 https://www.st2msi.net/mocodo_js/mocodo_js.html
-Vous pouvez vous entrainer d'abord avec l'original  sur http://www.mocodo.net/.
-<h2>Exemple</h2>
-<h3>Description textuelle</h3>
-Adaptée d'une étude de cas de BTS SIO SLAM (Cas AHM-23 - session 2017).
+You can train first with the original : http://www.mocodo.net/.
+<h2>Example</h2>
+<h3>Input</h3>
+Adapted from a case study (BTS SIO SLAM AHM-23 - 2017).
 
     EssenceBois: id, libelle
     :
@@ -55,11 +54,11 @@ Adaptée d'une étude de cas de BTS SIO SLAM (Cas AHM-23 - session 2017).
     Personalisee: &dateApplication, dateCreation, contact
 
     En sortie, le MCD (diagramme conceptuel):
-<h3>Shéma généré</h3>
+<h3>Output</h3>
 
 ![](https://www.st2msi.net/img/AHM-23.svg)
 
-<h2>Apport de la version</h2>
+<h2>Contribution of this version</h2>
 <ul>
     <li>La généralisation/spécialisation s'exprime par des relations notées <code>XT</code>,<code>T</code>,<code>X</code> ou <code> </code>.</li>
     <li>Ces relations recoivent  alors des cardinalités notées <code>&&</code> (évite l'affichage des cardinalités).</li>
