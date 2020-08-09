@@ -1,10 +1,13 @@
 ![](https://www.st2msi.net/img/mocodo_js.svg)
 
-Mocodo_js est un composant d'aide à l'enseignement et à la conception des bases de données relationnelles.
-(http://www.lsis.org/espinasseb/LivreMerise/LivreMerisePDF-total-12sept14.pdf).
+Mocodo is a software to help teach and design relational databases (https://github.com/laowantong/mocodo).
 
-La version en ligne est une "version beta", les erreurs ne sont pas gérées et le code doit être remanié).
-Le script est testé avec les navigateurs Brave, Chrome, Edge, Firefox (ne fonctionne pas sur Internet Explorer => utiliser Edge ou autre).
+Mocodo{.js} uses the formalism of mocodo (same textual description) to construct the MCD (conceptual model of the data). 
+- The online version is a "beta version".
+- Errors are not managed.
+- The code needs to be reworked.
+
+The script is tested with Brave, Chrome, Edge and Firefox browsers (it doesn't work on Internet Explorer - use Edge or whatever).
 
 L'outil se base sur MOCODO : https://github.com/laowantong/mocodo. 
 - En entrée, il prend une description textuelle des entités et associations du modèle conceptuel de données ([MCD](https://fr.wikipedia.org/wiki/Modèle_entité-association)).
