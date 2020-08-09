@@ -17,7 +17,7 @@ You can train first with the original : http://www.mocodo.net/.
 <h2>Contributions of this version</h2>
 <ul>
     <li>Generalization/specialization (heritage) is expressed through relationships: <code>XT</code>,<code>T</code>,<code>X</code> or <code> </code>.</li>
-    <li>These relations receive the cardinalitiess <code>&&</code> (avoids displaying cardinalities).</li>
+    <li>These relations receive the cardinalities <code>&&</code> (avoids displaying cardinalities).</li>
     <li>The first property of "subtype" entities is preceded by a <code>&</code> (le <code>&</code> avoid underlining).</li>
     <li>example: <code>XT, &&> ModelePalette, && Standard, && Personalisee</code>.</li>
     <li><code>, &&> ModelePalette, && Standard, && Personalisee</code> will display an empty triangle.</li>
