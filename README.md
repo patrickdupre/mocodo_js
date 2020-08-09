@@ -14,6 +14,14 @@ The script is tested with Brave, Chrome, Edge and Firefox browsers (it doesn't w
 <h2>Online version</h2>
 https://www.st2msi.net/mocodo_js/mocodo_js.html
 You can train first with the original : http://www.mocodo.net/.
+<h2>Contributions of this version</h2>
+<ul>
+    <li>Generalization/specialization (heritage) is expressed through relationships: <code>XT</code>,<code>T</code>,<code>X</code> or <code> </code>.</li>
+    <li>These relations receive the cardinalitiess <code>&&</code> (avoids displaying cardinalities).</li>
+    <li>The first property of "subtype" entities is preceded by a <code>&</code> (le <code>&</code> avoid underlining).</li>
+    <li>example: <code>XT, &&> ModelePalette, && Standard, && Personalisee</code>.</li>
+    <li><code>, &&> ModelePalette, && Standard, && Personalisee</code> will display an empty triangle.</li>
+</ul>
 <h2>Example</h2>
 <h3>Input</h3>
 Adapted from a case study (BTS SIO SLAM AHM-23 - 2017).
@@ -56,15 +64,7 @@ Adapted from a case study (BTS SIO SLAM AHM-23 - 2017).
 
 ![](https://www.st2msi.net/img/AHM-23.svg)
 
-<h2>Contributions of this version</h2>
-<ul>
-    <li>Generalization/specialization (heritage) is expressed through relationships: <code>XT</code>,<code>T</code>,<code>X</code> or <code> </code>.</li>
-    <li>These relations receive the cardinalitiess <code>&&</code> (avoids displaying cardinalities).</li>
-    <li>The first property of "subtype" entities is preceded by a <code>&</code> (le <code>&</code> avoid underlining).</li>
-    <li>example: <code>XT, &&> ModelePalette, && Standard, && Personalisee</code>.</li>
-    <li><code>, &&> ModelePalette, && Standard, && Personalisee</code> will display an empty triangle.</li>
-</ul>
-<h2>Installation en local</h2>
+<h2>Local install</h2>
 <ul>
     <li>You need to have an installed and operational http server</li>
     <li>Download the code via Github</li>
