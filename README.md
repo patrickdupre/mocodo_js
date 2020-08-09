@@ -1,7 +1,7 @@
 ![](https://www.st2msi.net/img/mocodo_js.svg)
 
 Mocodo is a software to help teach and design relational databases (https://github.com/laowantong/mocodo).
-(It is a tool that works according to part of the principles of the "Merise" method)
+(This tool works according to a part of the principles of the "Merise" method)
 
 Mocodo{.js} uses the formalism of mocodo (same textual description) to construct the MCD (conceptual data model). 
 - The online version is a "beta version".
@@ -63,8 +63,6 @@ Adapted from a case study (BTS SIO SLAM AHM-23 - 2017).
     <li>The first property of "subtype" entities is preceded by a <code>&</code> (le <code>&</code> avoid underlining).</li>
     <li>example: <code>XT, &&> ModelePalette, && Standard, && Personalisee</code>.</li>
     <li><code>, &&> ModelePalette, && Standard, && Personalisee</code> will display an empty triangle.</li>
-    <li>Bibliographie : INGENIERIE DES SYSTEMES D’INFORMATION : MERISE DEUXIEME GENERATION 4°édition</li>
-    <li>http://www.lsis.org/espinasseb/LivreMerise/LivreMerisePDF-total-12sept14.pdf</li>
 </ul>
 <h2>Installation en local</h2>
 <ul>
@@ -73,10 +71,15 @@ Adapted from a case study (BTS SIO SLAM AHM-23 - 2017).
     <li>Décompresser le fichier à la racine du serveur</li>
     <li>Appeler le fichier mocodo_js.html depuis votre navigateur</li>
 <ul>
-<h2>Installation en local</h2>
+<h2>Bibliography</h2>
 <ul>
-    <li>Vous devez avoir un serveur http installé et opérationnel</li>
-    <li>Télécharger le code via Github</li>
-    <li>Décompresser le fichier à la racine du serveur</li>
-    <li>Appeler le fichier mocodo_js.html depuis votre navigateur</li>
+    <li>INGENIERIE DES SYSTEMES D’INFORMATION : MERISE DEUXIEME GENERATION (http://www.lsis.org/espinasseb/LivreMerise/LivreMerisePDF-total-12sept14.pdf</li>
+    <li>Jean-Luc Hainaut (2018), Bases de données - 4e édition - Concepts, utilisation et développement (InfoSup, Dunod)</li>
+    <li>Joseph Gabay (2001), Merise et UML pour la modélisation des systèmes d'information - Un guide complet avec études de cas, (Infrmatique, Dunod)</li>
+<ul>
+<h2>References</h2>
+<ul>
+    <li>INGENIERIE DES SYSTEMES D’INFORMATION : MERISE DEUXIEME GENERATION (http://www.lsis.org/espinasseb/LivreMerise/LivreMerisePDF-total-12sept14.pdf</li>
+    <li>Bases de données - 4e édition - Concepts, utilisation et développement (InfoSup, Dunod) Jean-Luc Hainaut (2018)</li>
+    <li>Merise et UML pour la modélisation des systèmes d'information - Un guide complet avec études de cas, (Infrmatique, Dunod) Joseph Gabay (2001)</li>
 <ul>
