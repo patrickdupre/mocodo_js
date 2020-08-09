@@ -1,7 +1,7 @@
 ![](https://www.st2msi.net/img/mocodo_js.svg)
 
 Mocodo is a software to help teach and design relational databases (https://github.com/laowantong/mocodo).
-(This tool works according to a part of the principles of the "Merise" method)
+(This tool works according to a part of the principles of the "Merise" method : https://en.wikipedia.org/wiki/Merise)
 
 Mocodo{.js} uses the formalism of mocodo (same textual description) to construct the MCD (conceptual data model). 
 - The online version is a "beta version".
@@ -58,7 +58,7 @@ Adapted from a case study (BTS SIO SLAM AHM-23 - 2017).
 
 <h2>Contribution of this version</h2>
 <ul>
-    <li>Generalization/specialization (heritage) is expressed through relationships: <code>XT</code>,<code>T</code>,<code>X</code> ou <code> </code>.</li>
+    <li>Generalization/specialization (heritage) is expressed through relationships: <code>XT</code>,<code>T</code>,<code>X</code> or <code> </code>.</li>
     <li>These relations receive the cardinalitiess <code>&&</code> (avoids displaying cardinalities).</li>
     <li>The first property of "subtype" entities is preceded by a <code>&</code> (le <code>&</code> avoid underlining).</li>
     <li>example: <code>XT, &&> ModelePalette, && Standard, && Personalisee</code>.</li>
