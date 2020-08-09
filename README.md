@@ -75,7 +75,7 @@ Adapted from a case study (BTS SIO SLAM AHM-23 - 2017).
 <ul>
     <li>INGENIERIE DES SYSTEMES D’INFORMATION : MERISE DEUXIEME GENERATION (http://www.lsis.org/espinasseb/LivreMerise/LivreMerisePDF-total-12sept14.pdf</li>
     <li>Jean-Luc Hainaut (2018), Bases de données - 4e édition - Concepts, utilisation et développement (InfoSup, Dunod)</li>
-    <li>Joseph Gabay (2001), Merise et UML pour la modélisation des systèmes d'information - Un guide complet avec études de cas, (Infrmatique, Dunod)</li>
+    <li>Joseph Gabay (2001), Merise et UML pour la modélisation des systèmes d'information - Un guide complet avec études de cas, (Informatique, Dunod)</li>
 </ul>
 <h2>References</h2>
 <ul>
