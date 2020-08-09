@@ -3,7 +3,7 @@
 Mocodo is a software to help teach and design relational databases (https://github.com/laowantong/mocodo).
 (This tool works according to a part of the principles of the "Merise" method : https://en.wikipedia.org/wiki/Merise)
 
-Mocodo{.js} uses the formalism of mocodo (same textual description) to construct the MCD (conceptual data model). 
+Mocodo{.js} uses the formalism of mocodo (same textual description) to construct the MCD (conceptual data model). With Mocodo{.js}, the client browser is working, not the server.
 - The online version is a "beta version".
 - Errors are not managed.
 - The code needs to be reworked.
@@ -66,10 +66,10 @@ Adapted from a case study (BTS SIO SLAM AHM-23 - 2017).
 </ul>
 <h2>Installation en local</h2>
 <ul>
-    <li>Vous devez avoir un serveur http installé et opérationnel</li>
-    <li>Télécharger le code via Github</li>
-    <li>Décompresser le fichier à la racine du serveur</li>
-    <li>Appeler le fichier mocodo_js.html depuis votre navigateur</li>
+    <li>You need to have an installed and operational http server</li>
+    <li>Download the code via Github</li>
+    <li>Unzip the file at the server's rootr</li>
+    <li>Call the file mocodo_js.html from your browser</li>
 </ul>
 <h2>Bibliography</h2>
 <ul>
@@ -79,7 +79,7 @@ Adapted from a case study (BTS SIO SLAM AHM-23 - 2017).
 </ul>
 <h2>References</h2>
 <ul>
-    <li>Icons : inspired or adapted from https://github.com/FortAwesome</li>
+    <li>Icons : inspired and adapted from https://github.com/FortAwesome</li>
     <li>https://developer.mozilla.org/en-US/</li>
     <li>https://www.w3.org/</li>
 </ul>
