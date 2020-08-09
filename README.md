@@ -56,7 +56,7 @@ Adapted from a case study (BTS SIO SLAM AHM-23 - 2017).
 
 ![](https://www.st2msi.net/img/AHM-23.svg)
 
-<h2>Contribution of this version</h2>
+<h2>Contributions of this version</h2>
 <ul>
     <li>Generalization/specialization (heritage) is expressed through relationships: <code>XT</code>,<code>T</code>,<code>X</code> or <code> </code>.</li>
     <li>These relations receive the cardinalitiess <code>&&</code> (avoids displaying cardinalities).</li>
@@ -79,7 +79,7 @@ Adapted from a case study (BTS SIO SLAM AHM-23 - 2017).
 <ul>
 <h2>References</h2>
 <ul>
-    <li>INGENIERIE DES SYSTEMES D’INFORMATION : MERISE DEUXIEME GENERATION (http://www.lsis.org/espinasseb/LivreMerise/LivreMerisePDF-total-12sept14.pdf</li>
-    <li>Bases de données - 4e édition - Concepts, utilisation et développement (InfoSup, Dunod) Jean-Luc Hainaut (2018)</li>
-    <li>Merise et UML pour la modélisation des systèmes d'information - Un guide complet avec études de cas, (Infrmatique, Dunod) Joseph Gabay (2001)</li>
+    <li>Icons : inspired or adapted from https://github.com/FortAwesome</li>
+    <li>https://developer.mozilla.org/en-US/</li>
+    <li>https://www.w3.org/</li>
 <ul>
