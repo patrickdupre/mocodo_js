@@ -52,19 +52,17 @@ Adapted from a case study (BTS SIO SLAM AHM-23 - 2017).
     Standard: &refCatalogue
     :
     Personalisee: &dateApplication, dateCreation, contact
-
-    En sortie, le MCD (diagramme conceptuel):
 <h3>Output</h3>
 
 ![](https://www.st2msi.net/img/AHM-23.svg)
 
 <h2>Contribution of this version</h2>
 <ul>
-    <li>La généralisation/spécialisation s'exprime par des relations notées <code>XT</code>,<code>T</code>,<code>X</code> ou <code> </code>.</li>
-    <li>Ces relations recoivent  alors des cardinalités notées <code>&&</code> (évite l'affichage des cardinalités).</li>
-    <li>La première propriété des entitées "sous type" est  précédée  d'un <code>&</code> (le <code>&</code> évite le soulignement).</li>
-    <li>exemple: <code>XT, &&> ModelePalette, && Standard, && Personalisee</code>.</li>
-    <li><code>, &&> ModelePalette, && Standard, && Personalisee</code> affichera un triangle vide.</li>
+    <li>Generalization/specialization (heritage) is expressed through relationships: <code>XT</code>,<code>T</code>,<code>X</code> ou <code> </code>.</li>
+    <li>These relations receive the cardinalitiess <code>&&</code> (avoids displaying cardinalities).</li>
+    <li>The first property of "subtype" entities is preceded by a <code>&</code> (le <code>&</code> avoid underlining).</li>
+    <li>example: <code>XT, &&> ModelePalette, && Standard, && Personalisee</code>.</li>
+    <li><code>, &&> ModelePalette, && Standard, && Personalisee</code> will display an empty triangle.</li>
     <li>Bibliographie : INGENIERIE DES SYSTEMES D’INFORMATION : MERISE DEUXIEME GENERATION 4°édition</li>
     <li>http://www.lsis.org/espinasseb/LivreMerise/LivreMerisePDF-total-12sept14.pdf</li>
 </ul>
@@ -75,4 +73,10 @@ Adapted from a case study (BTS SIO SLAM AHM-23 - 2017).
     <li>Décompresser le fichier à la racine du serveur</li>
     <li>Appeler le fichier mocodo_js.html depuis votre navigateur</li>
 <ul>
-
+<h2>Installation en local</h2>
+<ul>
+    <li>Vous devez avoir un serveur http installé et opérationnel</li>
+    <li>Télécharger le code via Github</li>
+    <li>Décompresser le fichier à la racine du serveur</li>
+    <li>Appeler le fichier mocodo_js.html depuis votre navigateur</li>
+<ul>
