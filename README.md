@@ -1,6 +1,6 @@
 ![](https://www.st2msi.net/img/mocodo_js.svg)
 
-Mocodo is a software to help teach and design relational databases (https://github.com/laowantong/mocodo).
+Mocodo is a software created to help teaching and designing relational databases (https://github.com/laowantong/mocodo).
 (This tool works according to a part of the principles of the "Merise" method : https://en.wikipedia.org/wiki/Merise)
 
 Mocodo{.js} uses the formalism of mocodo (same textual description) to construct the MCD (conceptual data model). With Mocodo{.js}, the client browser is working, not the server.
